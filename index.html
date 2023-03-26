@@ -76,7 +76,6 @@
     <img src="Images/img7.jpg?raw=true" style="width:100%">
     <img src="Images/img8.jpg?raw=true" style="width:100%">
   </div>
-
 </div>
 </section>
 
@@ -98,25 +97,51 @@
 
 <section id="spa" class="section">
   <h2>Q&A</h2>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+  <div class="session">
+    <p class="paragraph">
+      <img src="https://github.com/Web-Development-Environments-2023/206332348/blob/main/Images/diffs.png?raw=true" style="width:60%">
+      <br/>
+      <br/>
+      The proposed use case for the Nike sports shop website includes three key features:<br/>
+      Web1 comprises a single page providing information about the store's operating hours and other relevant details. <br/>
+      Web2 offers multiple routes to access the shop's products and services, including links to the store's social media pages, blogs, and opportunities for customers to comment on and review products. <br/>
+      Web3 is designed to provide personalized product recommendations to customers by suggesting items that might be a good fit based on their browsing history and preferences.<br/>
+    </p>
+  </div>
 </section>
 
 <section id="contact" class="section">
   <h2>Contact me</h2>
-
-<br/>
-<br/>
+  <h1>Send me an Email</h1>
+  <form method="post" action="mailto:kathyeva@post.bgu.ac.il">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="mail_address" placeholder="Email Address" required />
+    <textarea name="emailContent" rows="12" cols="35" id="body" placeholder="Type your Message"></textarea>
+    <select id="emojis" onchange="addEmoji()">
+      <option value="&#128525">&#128525</option>
+      <option value="&#128151">&#128151</option>
+      <option value="&#128523">&#128523</option>
+      <option value="&#128521">&#128521</option>
+      <option value="&#128078">&#128078</option>
+    </select>
+    <input type="submit" value="Send" />
+  </form>
 <br/>
 </section>
 
+
+
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="rkPXZby9"></script>
+
+<script type="text/javascript">
+  function addEmoji() {
+    var emojis = document.getElementById("emojis");
+    var chosenEmoji = emojis.value;
+    var textBox = document.getElementById("body");
+    textBox.value += chosenEmoji;
+  }
+</script>
 
 <script type="text/javascript">
 $(function(){
