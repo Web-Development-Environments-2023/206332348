@@ -89,3 +89,59 @@
 	margin: 0 auto;
 	text-align: center;
   }
+
+
+  #contact {
+	text-align: center;
+  }
+  
+  #contact h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+  }
+  
+  #contact form {
+	display: inline-block;
+	text-align: left;
+	background-color: #f7f7f7;
+	border-radius: 5px;
+	padding: 2rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contact form label {
+	display: block;
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+  }
+  
+  #contact form input,
+  #contact form textarea {
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	border-radius: 3px;
+	box-sizing: border-box;
+  }
+  
+  #contact form textarea {
+	height: 10rem;
+  }
+  
+  #contact form button[type="submit"] {
+	background-color: #6a978d;
+	color: #fff;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 3px;
+	font-size: 1rem;
+	cursor: pointer;
+  }
+  
+  #contact form button[type="submit"]:hover {
+	background-color: #588270;
+  }
+  
