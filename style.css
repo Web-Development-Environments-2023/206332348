@@ -82,3 +82,10 @@
 	margin-top: 8px;
 	vertical-align: middle;
   }
+
+
+  .fb-like {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+  }
